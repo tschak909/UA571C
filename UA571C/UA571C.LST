@@ -1,0 +1,14 @@
+
+
+
+Summary Information:
+
+PROCEDURE                OFFSET    CODE SIZE     DATA SIZE    STACK SIZE
+MAIN                      0000H  0052H    82D  0000H     0D  0004H     4D  
+-CONST IN DATA-                                0000H     0D  
+
+Total                            0052H    82D  0000H     0D  0038H    56D  
+
+ 575 Lines Read.
+   0 Errors Detected.
+ 65% Utilization of Memory.

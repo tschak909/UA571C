@@ -1,0 +1,259 @@
+
+InteGRiD 3.3.1 8086 LINKER, V2.0
+
+INPUT FILES: `D:`UA571C`UA571C~OBJ~, `D:`UA571C`HEADER~OBJ~, 
+  `D:`UA571C`MAINDISP~OBJ~, `D:`UA571C`FONTS~OBJ~, `D:`UA571C`FIRE~OBJ~, `D:`UA571C`MENU~OBJ~, 
+  `C:`LIBS`COMPACT~LIB~
+OUTPUT FILE: `D:`UA571C`UA571C~RUN~
+CONTROLS SPECIFIED IN INVOCATION COMMAND:
+ BIND 
+  FASTLOAD SS(STACK(+3500))
+DATE:   8/27/22  TIME:   1:20 pm
+
+
+LINK MAP OF MODULE MAIN
+
+LOGICAL SEGMENTS INCLUDED:
+LENGTH ADDRESS ALIGN  SEGMENT         CLASS           OVERLAY
+ 1D7CH ------    G    CODE            CODE                          
+ 0084H ------    W    DATA            DATA                          
+ 0FFAH ------    W    STACK           STACK                         
+ 015CH ------    W    CONST           CONST                         
+ 0000H ------    G    ??SEG                                         
+
+INPUT MODULES INCLUDED:
+`D:`UA571C`UA571C~OBJ~(MAIN)
+`D:`UA571C`HEADER~OBJ~(HEADER)
+`D:`UA571C`MAINDISP~OBJ~(MAINDISP)
+`D:`UA571C`FONTS~OBJ~(FONTS)
+`D:`UA571C`FIRE~OBJ~(FIRE)
+`D:`UA571C`MENU~OBJ~(MENU)
+`C:`LIBS`COMPACT~LIB~(COMMONCALLSCMPLIB_115)
+`C:`LIBS`COMPACT~LIB~(OSCALLSCMPLIB_112)
+`C:`LIBS`COMPACT~LIB~(PASCALCALLSLRGLIB_114)
+
+
+
+GROUP MAP
+
+
+GROUP NAME:  CGROUP
+   OFFSET  SEGMENT NAME
+   0000H   CODE
+
+GROUP NAME:  DGROUP
+   OFFSET  SEGMENT NAME
+   0000H   DATA
+   0084H   CONST
+
+SYMBOL TABLE OF MODULE MAIN
+
+BASE    OFFSET TYPE SYMBOL               BASE    OFFSET TYPE SYMBOL       
+
+G(1)    1868H  PUB  ALLOCATEBYTES        G(1)    187CH  PUB  APPENDANYCHAR
+G(1)    1881H  PUB  APPENDCHAR           G(1)    1886H  PUB  APPENDSTRING
+G(1)    1962H  PUB  AUTHOROFTHISFILE     G(1)    1C58H  PUB  BASELINE
+G(1)    17F0H  PUB  BLOWOUT              G(1)    17E6H  PUB  CALLGETVAR
+G(1)    19ADH  PUB  CALLINVARS           G(1)    19A8H  PUB  CALLNAMEOFFUNCT
+G(1)    19A3H  PUB  CALLNAMEOFVAR        G(1)    17EBH  PUB  CALLPUTVAR
+G(1)    1C4EH  PUB  CHARHEIGHT           G(1)    1C53H  PUB  CHARWIDTH
+G(1)    19C6H  PUB  CMDERASE             G(1)    193AH  PUB  CMDINITIALUSAGE
+G(1)    19D0H  PUB  CMDMEDIAUSAGE        G(1)    19CBH  PUB  CMDPROPERTIES
+G(1)    18DBH  PUB  COMPAREBYTES         G(1)    188BH  PUB  COMPARESTRINGS
+G(1)    1890H  PUB  CONCATLITS           G(1)    1895H  PUB  CONCATSTRINGS
+G(1)    1B36H  PUB  CONCHARIN            G(1)    1B3BH  PUB  CONCHAROUT
+G(1)    1C5DH  PUB  CONDECIMALOUT        G(1)    1B45H  PUB  CONDEFCSR
+G(1)    1C3AH  PUB  CONHEXOUT            G(1)    1B2CH  PUB  CONKEYPRESSED
+G(1)    1C76H  PUB  CONLINEIN            G(1)    1B40H  PUB  CONLINEOUT
+G(1)    1B4AH  PUB  CONMOVECSR           G(1)    1B31H  PUB  CONPEEKCHAR
+G(1)    1B4FH  PUB  CONRESETDISPLAY      G(1)    189AH  PUB  COPYOFSTRING
+G(1)    189FH  PUB  COPYSTRING           G(1)    1A2AH  PUB  CREATELISTS
+G(1)    19F8H  PUB  DATAFORMCONFIRME     G(1)    19F3H  PUB  DATAMENUCONFIRME
+                   -D                                       -D
+G(1)    18E0H  PUB  DELETEBYTES          G(1)    18A4H  PUB  DELETEFROMSTRING
+G(1)    01BCH  PUB  DISPLAYHEADER        G(1)    18A9H  PUB  EQUALSTRINGS
+G(1)    182CH  PUB  EVALPARSE            G(1)    1A0CH  PUB  EXACTCOPYOFSTRIN
+                                                            -G
+G(1)    1A11H  PUB  EXECUTIVEHELP        G(1)    1813H  PUB  EXPANDHEADING
+G(1)    1949H  PUB  FFEXECUTECOMMAND     G(1)    1953H  PUB  FILEFORMCONFIRME
+                                                            -D
+G(1)    1971H  PUB  FILLQUEUE            G(1)    1958H  PUB  FINALIZEPROPERTI
+                                                            -ESLENGTH
+G(1)    18E5H  PUB  FINDBYTE             G(1)    1769H  PUB  FINDTHISTITLE
+G(1)    165DH  PUB  FIREDEFAULTS         G(1)    169AH  PUB  FIREDISPLAY
+G(1)    175AH  PUB  FLDDIMHILIGHTFIE     G(1)    175FH  PUB  FLDDRAWCURSOR
+                   -LD                                         
+G(1)    1764H  PUB  FLDDRAWFIELD         G(1)    176EH  PUB  FLDDRAWFIELDCHAR
+                                                            -S
+G(1)    1773H  PUB  FLDEDITFIELD         G(1)    1778H  PUB  FLDERASECURSOR
+G(1)    177DH  PUB  FLDFORMATLINE        G(1)    1782H  PUB  FLDHILIGHTFIELD
+G(1)    1787H  PUB  FLDINSERTINFIELD     G(1)    178CH  PUB  FLDINVERTCHAR
+G(1)    1755H  PUB  FLDKEYINSET          G(1)    1791H  PUB  FLDREADKEY
+G(1)    1796H  PUB  FLDSETCURSOR         G(1)    179BH  PUB  FLDSETPOS
+G(1)    17A0H  PUB  FLDSTARTKEYS         G(1)    1921H  PUB  FONTCOUNT
+G(1)    1A1BH  PUB  FONTGETN             G(1)    1926H  PUB  FONTNTHNAME
+G(1)    1005H  PUB  FONTSDONE            G(1)    192BH  PUB  FONTSETNAME
+G(1)    1935H  PUB  FONTSETNTH           G(1)    0F64H  PUB  FONTSINIT
+G(1)    17A5H  PUB  FORMINIT             G(1)    186DH  PUB  FREEBYTES
+G(1)    17FAH  PUB  FREEEVALUATORCON     G(1)    18AEH  PUB  FREESTRING
+                   -TENTS                                         
+G(1)    19FDH  PUB  FREESTRINGSINDAT     G(1)    17FFH  PUB  FREETHREAD
+                   -AFORM                                         
+G(1)    17C8H  PUB  GENERATE             G(1)    1A16H  PUB  GETCHOICEFROMSTR
+                                                            -ING
+G(1)    1B81H  PUB  GETCONSOLESTATE      G(1)    19C1H  PUB  GETDIRITEM
+G(1)    1B7CH  PUB  GETENTRYPOINT        G(1)    1A25H  PUB  GETLIST
+G(1)    1967H  PUB  GETNEXTRECORD        G(1)    195DH  PUB  GETPROPERTIESCON
+                                                            -NECTION
+G(1)    193FH  PUB  GETVERSIONSTRING     G(1)    19BCH  PUB  HOWMANYPARMS
+G(1)    1D4EH  PUB  INIT87               G(1)    1804H  PUB  INITEVALUATOR
+G(1)    1D54H  PUB  INITFP               G(1)    18EAH  PUB  INSERTBYTES
+G(1)    18B3H  PUB  INSERTCHARINSTRI     G(1)    18B8H  PUB  INSERTINSTRING
+                   -NG                                         
+G(1)    18BDH  PUB  INTEGERTOSTRING      G(1)    1C21H  PUB  INTSEND
+G(1)    1912H  PUB  LEFTMARGIN           G(1)    1C49H  PUB  LINEHEIGHT
+G(1)    1985H  PUB  LOADOVERLAY          G(1)    0000H  PUB  MAIN
+G(1)    0F1AH  PUB  MAINDEFAULTS         G(1)    0F52H  PUB  MAINDISPLAY
+G(1)    16A8H  PUB  MAINMENU             G(1)    17F5H  PUB  MAX
+G(1)    17AAH  PUB  MENUFORMCONFIRME     G(1)    17AFH  PUB  MENUFORMDISPOSE
+                   -D                                         
+G(1)    17B4H  PUB  MENUINIT             G(1)    1863H  PUB  MIN
+G(1)    18EFH  PUB  MOVEBYTES            G(1)    18F4H  PUB  MOVEREVERSEBYTES
+G(1)    1D06H  PUB  MQERACS              G(1)    1D0CH  PUB  MQERASN
+G(1)    1D12H  PUB  MQERATN              G(1)    1D18H  PUB  MQERCI2
+G(1)    1D1EH  PUB  MQERCOS              G(1)    1D24H  PUB  MQEREXP
+G(1)    1D2AH  PUB  MQERINT              G(1)    1D30H  PUB  MQERLGE
+G(1)    1D36H  PUB  MQERNI2              G(1)    1D3CH  PUB  MQERNIN
+G(1)    1D42H  PUB  MQERSIN              G(1)    1D48H  PUB  MQERTAN
+G(1)    1831H  PUB  MSGCLEARMESSAGE      G(1)    1836H  PUB  MSGCLEARPROMPT
+G(1)    1999H  PUB  MSGEXIT              G(1)    183BH  PUB  MSGINIT
+G(1)    1840H  PUB  MSGINITIALUSAGE      G(1)    1845H  PUB  MSGSHOWDECODED
+G(1)    184FH  PUB  MSGSHOWERROR         G(1)    1854H  PUB  MSGSHOWMESSAGE
+G(1)    1859H  PUB  MSGSHOWPROMPT        G(1)    19DAH  PUB  MSGSTACKMESSAGE
+G(1)    19DFH  PUB  MSGSTACKPROMPT       G(1)    1994H  PUB  MSGTRAPEXCEPTION
+G(1)    19B7H  PUB  NAMEOFENTRY          G(1)    18C2H  PUB  NEWSTRING
+G(1)    18C7H  PUB  NEWSTRINGLIT         G(1)    1809H  PUB  NEWTHREAD
+G(1)    1976H  PUB  NEXTQUEUEITEM        G(1)    17B9H  PUB  NILCHOICEINFO
+G(1)    17BEH  PUB  NILCHOICEPROC        G(1)    17C3H  PUB  NILITEMSTR
+G(1)    199EH  PUB  NILSCROLLKEY         G(1)    184AH  PUB  OPENDIRECTORY
+G(1)    1B68H  PUB  OSADDALIAS           G(1)    1B54H  PUB  OSADDDEVICE
+G(1)    1B27H  PUB  OSADDKBCHAR          G(1)    1C7BH  PUB  OSADDRESSOF
+G(1)    1A50H  PUB  OSALLOCATE           G(1)    1AAAH  PUB  OSATTACH
+G(1)    1C12H  PUB  OSCALLDRIVER         G(1)    1AD2H  PUB  OSCHANGEEXTENSIO
+                                                            -N
+G(1)    1AD7H  PUB  OSCLOSE              G(1)    1A64H  PUB  OSCREATEPROCESS
+G(1)    1C2BH  PUB  OSCREATEREMOTEPR     G(1)    1A96H  PUB  OSCREATESEMAPHOR
+                   -OCESS                                   -E
+G(1)    1B13H  PUB  OSDECODEEXCEPTIO     G(1)    1A6EH  PUB  OSDELAY
+                   -N                                         
+G(1)    1ADCH  PUB  OSDELETE             G(1)    1B6DH  PUB  OSDELETEALIAS
+G(1)    1A82H  PUB  OSDELETEPROCESS      G(1)    1AA5H  PUB  OSDELETESEMAPHOR
+                                                            -E
+G(1)    1AE1H  PUB  OSDETACH             G(1)    1A87H  PUB  OSEXIT
+G(1)    1AC8H  PUB  OSFLUSHALLBUFFER     G(1)    1A69H  PUB  OSFORKPROCESS
+                   -S                                         
+G(1)    1A55H  PUB  OSFREE               G(1)    1AF0H  PUB  OSGETARGUMENT
+G(1)    1C26H  PUB  OSGETCARDSTATUS      G(1)    1A5FH  PUB  OSGETMEMSTATUS
+G(1)    1C17H  PUB  OSGETPREFIX          G(1)    1B5EH  PUB  OSGETPROPERTY
+G(1)    1A5AH  PUB  OSGETSIZE            G(1)    1AE6H  PUB  OSGETSTATUS
+G(1)    1AFFH  PUB  OSGETSYSTEMID        G(1)    1B04H  PUB  OSGETTIME
+G(1)    1C1CH  PUB  OSGETWORK            G(1)    1B18H  PUB  OSHANDLECANCEL
+G(1)    1C30H  PUB  OSLOGERROR           G(1)    1B0EH  PUB  OSLOOKUPNAME
+G(1)    1C35H  PUB  OSMATCHWILDCARD      G(1)    1AAFH  PUB  OSOPEN
+G(1)    1C3FH  PUB  OSOUROBOURO          G(1)    1AFAH  PUB  OSOVERLAY
+G(1)    1B63H  PUB  OSPUTPROPERTY        G(1)    1AB4H  PUB  OSREAD
+G(1)    1B1DH  PUB  OSREADDESCRIPTOR     G(1)    1A8CH  PUB  OSRECEIVE
+G(1)    1B09H  PUB  OSREGISTERNAME       G(1)    1B59H  PUB  OSREMOVEDEVICE
+G(1)    1ACDH  PUB  OSRENAME             G(1)    1ABEH  PUB  OSSEEK
+G(1)    1A91H  PUB  OSSEND               G(1)    1A73H  PUB  OSSETPRIORITY
+G(1)    1AEBH  PUB  OSSETSTATUS          G(1)    1AA0H  PUB  OSSIGNAL
+G(1)    1AF5H  PUB  OSSWITCHBUFFER       G(1)    1AC3H  PUB  OSTRUNCATE
+G(1)    1B72H  PUB  OSUNLOAD             G(1)    1C62H  PUB  OSUPDATEDEVICELI
+                                                            -ST
+G(1)    1B77H  PUB  OSVERSIONNUMBER      G(1)    1A9BH  PUB  OSWAIT
+G(1)    1A7DH  PUB  OSWHEREAMI           G(1)    1A78H  PUB  OSWHOAMI
+G(1)    1AB9H  PUB  OSWRITE              G(1)    1B22H  PUB  OSWRITEDESCRIPTO
+                                                            -R
+G(1)    1930H  PUB  PATCH                G(1)    1944H  PUB  PATHNAMETOSTRING
+G(1)    17D2H  PUB  POPNUMBER            G(1)    17D7H  PUB  POPSTACK
+G(1)    17DCH  PUB  POPVALUE             G(1)    1CD6H  PUB  PQ_310
+G(1)    1CDCH  PUB  PQ_320               G(1)    1CA0H  PUB  PQ_546
+G(1)    1CA6H  PUB  PQ_566               G(1)    1CACH  PUB  PQ_571
+G(1)    1CB2H  PUB  PQ_575               G(1)    1CB8H  PUB  PQ_577
+G(1)    1CBEH  PUB  PQ_578               G(1)    1CC4H  PUB  PQ_580
+G(1)    1CCAH  PUB  PQ_585               G(1)    1CD0H  PUB  PQ_595
+G(1)    197BH  PUB  PREVQUEUEITEM        G(1)    17E1H  PUB  PUSHSTACK
+G(1)    18FEH  PUB  REALTOSTRING         G(1)    180EH  PUB  RECOVERQAFTERCOM
+                                                            -MONUNLOADED
+G(1)    1A20H  PUB  REDOLISTS            G(1)    1822H  PUB  RESETEVALUATOR
+G(1)    190DH  PUB  RESTOREINTERRUPT     G(1)    1917H  PUB  RIGHTMARGIN
+                   -VECTOR                                         
+G(1)    17CDH  PUB  RUNTHREAD            G(1)    1908H  PUB  SAVEINTERRUPTVEC
+                                                            -TOR
+G(1)    1827H  PUB  SCAN                 G(1)    19D5H  PUB  SCANONE
+G(1)    0FA3H  PUB  SETAFONT             G(1)    18F9H  PUB  SETBYTES
+G(1)    0F72H  PUB  SETHEADERFONT        G(1)    19E4H  PUB  SETPREFIX
+G(1)    0FD4H  PUB  SETSECTIONFONT       G(1)    198AH  PUB  SIZEQUEUE
+G(1)    196CH  PUB  SKIPPROPERTIES       G(1)    198FH  PUB  STARTQ
+G(1)    1980H  PUB  STATUSOFQUEUE        G(1)    1A07H  PUB  STRINGOFFORMITEM
+G(1)    18D1H  PUB  STRINGTOINTEGER      G(1)    1903H  PUB  STRINGTOREAL
+G(1)    194EH  PUB  SUBPROPERTY          G(1)    18CCH  PUB  SUBSTRINGLIT
+G(1)    1723H  PUB  TBLADDCOL            G(1)    1728H  PUB  TBLADDROWS
+G(1)    16B5H  PUB  TBLCELLONSCREEN      G(1)    16BAH  PUB  TBLCHANGEFIELDS
+G(1)    16BFH  PUB  TBLCONFIRMSELECT     G(1)    16C4H  PUB  TBLDIMHILIGHTCEL
+                   -ION                                     -L
+G(1)    172DH  PUB  TBLDISPOSECOL        G(1)    1732H  PUB  TBLDISPOSESCREEN
+G(1)    1737H  PUB  TBLDISPOSETABLE      G(1)    16B0H  PUB  TBLDRAWGRID
+G(1)    16C9H  PUB  TBLDRAWTABLE         G(1)    16CEH  PUB  TBLEDITTABLE
+G(1)    16D3H  PUB  TBLEQUALCELLS        G(1)    16D8H  PUB  TBLESCAPEMODE
+G(1)    16DDH  PUB  TBLFIELDOFCELLID     G(1)    16E2H  PUB  TBLFIELDOFCOLROW
+G(1)    16E7H  PUB  TBLFINDBOUNDS        G(1)    16ECH  PUB  TBLGETSELECTEDCE
+                                                            -LLIDS
+G(1)    16F1H  PUB  TBLHILIGHTCELL       G(1)    16F6H  PUB  TBLHILIGHTTABLE
+G(1)    173CH  PUB  TBLINITTABLE         G(1)    16FBH  PUB  TBLINVERTRANGE
+G(1)    1700H  PUB  TBLINVERTSPAN        G(1)    1741H  PUB  TBLNEWCOL
+G(1)    1746H  PUB  TBLNEWSCREEN         G(1)    1705H  PUB  TBLSCROLL
+G(1)    170AH  PUB  TBLSCROLLADJUSTC     G(1)    170FH  PUB  TBLSETCURRENTCEL
+                   -ELLID                                   -L
+G(1)    174BH  PUB  TBLSETVISIBLE        G(1)    1750H  PUB  TBLSETVISIBLEREC
+                                                            -T
+G(1)    1714H  PUB  TBLSTARTSELECTIO     G(1)    1719H  PUB  TBLUNHILIGHTTABL
+                   -N                                       -E
+G(1)    171EH  PUB  TBLUPDATERECT        G(1)    181DH  PUB  TIMETOSTRING
+G(1)    191CH  PUB  TOPMARGIN            G(1)    1CE2H  PUB  TQ_001
+G(1)    1CE8H  PUB  TQ_100               G(1)    1CEEH  PUB  TQ_110
+G(1)    1CF4H  PUB  TQ_125               G(1)    1CFAH  PUB  TQ_150
+G(1)    1D00H  PUB  TQ_999               G(1)    1818H  PUB  TRANSLATEHEADING
+G(1)    1A02H  PUB  UNDODATAFORM         G(1)    185EH  PUB  UNUSEDHEAPSPACE
+G(1)    18D6H  PUB  UPPERCASE            G(1)    19B2H  PUB  WHATLEVEL
+G(1)    1C67H  PUB  WINALLOCATEWINDO     G(1)    1B8BH  PUB  WINCLIPLINE
+                   -WMEMORY                                         
+G(1)    1B90H  PUB  WINCLIPRECTANGLE     G(1)    1BD1H  PUB  WINCOPYRECTANGLE
+G(1)    1C71H  PUB  WINCOPYREMOTEREC     G(1)    1BE0H  PUB  WINDRAWCHAR
+                   -TANGLE                                         
+G(1)    1BE5H  PUB  WINDRAWCHARS         G(1)    1B95H  PUB  WINDRAWLINE
+G(1)    1BC7H  PUB  WINDRAWPIXEL         G(1)    1BEFH  PUB  WINERASECHAR
+G(1)    1B9AH  PUB  WINERASELINE         G(1)    1BCCH  PUB  WINERASEPIXEL
+G(1)    1BB8H  PUB  WINERASERECTANGL     G(1)    1BC2H  PUB  WINERASEWINDOW
+                   -E                                         
+G(1)    1B86H  PUB  WINFRAMEWINDOW       G(1)    1C08H  PUB  WINGETCURRENTWIN
+                                                            -DOWSTATE
+G(1)    1BF4H  PUB  WINGETWINDOWEXTE     G(1)    1C44H  PUB  WINHANDLEPHONE
+                   -NT                                         
+G(1)    1BB3H  PUB  WININITDEFAULTWI     G(1)    1BEAH  PUB  WININVERTCHAR
+                   -NDOW                                         
+G(1)    1B9FH  PUB  WININVERTLINE        G(1)    1BF9H  PUB  WININVERTPIXEL
+G(1)    1BBDH  PUB  WININVERTRECTANG     G(1)    1C0DH  PUB  WINLOADFONT
+                   -LE                                         
+G(1)    1BA9H  PUB  WINRESETCLIP         G(1)    1BD6H  PUB  WINSCROLLRECTANG
+                                                            -LE
+G(1)    1BDBH  PUB  WINSCROLLWINDOW      G(1)    1C6CH  PUB  WINSETALTERNATEW
+                                                            -INDOW
+G(1)    1BA4H  PUB  WINSETCLIP           G(1)    1BFEH  PUB  WINSETFONT
+G(1)    1BAEH  PUB  WINSETWINDOW         G(1)    1C03H  PUB  WINTESTPIXEL
+G(1)    1872H  PUB  WMAX                 G(1)    1877H  PUB  WMIN
+G(2)    0082H  PUB  MENUITEM
+
+
+REFERENCES TO SEGMENT BASES EXIST IN INPUT MODULES: 
+  MAIN

@@ -1,0 +1,26 @@
+
+
+
+Summary Information:
+
+PROCEDURE                OFFSET    CODE SIZE     DATA SIZE    STACK SIZE
+FIREDEFAULTS              0643H  003DH    61D                0006H     6D  
+FIREDISPLAY               0680H  000EH    14D                0006H     6D  
+WINDRAWRECT               0000H  0066H   102D                000EH    14D  
+DRAWDISPLAY               0066H  0183H   387D                0018H    24D  
+SHOWCRITICAL              01E9H  00BCH   188D                0010H    16D  
+TOGGLECRITICAL            02A5H  0029H    41D                000AH    10D  
+SETROUNDS                 02CEH  009FH   159D                001CH    28D  
+SETTIME                   036DH  0106H   262D                0034H    52D  
+SETTEMPERATURE            0473H  002BH    43D                000AH    10D  
+SETRM                     049EH  000AH    10D                0006H     6D  
+REDRAW                    04A8H  0032H    50D                000AH    10D  
+DOFIRE                    04DAH  0112H   274D                000EH    14D  
+DISPUI                    05ECH  0057H    87D                0008H     8D  
+-CONST IN DATA-                                0041H    65D  
+
+Total                            068EH  1678D  005AH    90D  00CCH   204D  
+
+ 929 Lines Read.
+   0 Errors Detected.
+ 70% Utilization of Memory.

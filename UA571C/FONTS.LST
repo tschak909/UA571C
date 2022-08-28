@@ -1,0 +1,18 @@
+
+
+
+Summary Information:
+
+PROCEDURE                OFFSET    CODE SIZE     DATA SIZE    STACK SIZE
+FONTSINIT                 0000H  000EH    14D                0006H     6D  
+SETHEADERFONT             000EH  0031H    49D                000EH    14D  
+SETAFONT                  003FH  0031H    49D                000EH    14D  
+SETSECTIONFONT            0070H  0031H    49D                000EH    14D  
+FONTSDONE                 00A1H  0015H    21D                000CH    12D  
+-CONST IN DATA-                                0017H    23D  
+
+Total                            00B6H   182D  001FH    31D  003CH    60D  
+
+ 741 Lines Read.
+   0 Errors Detected.
+ 77% Utilization of Memory.

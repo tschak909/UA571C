@@ -1,0 +1,16 @@
+
+
+
+Summary Information:
+
+PROCEDURE                OFFSET    CODE SIZE     DATA SIZE    STACK SIZE
+DISPLAYHEADER             016AH  0069H   105D                0016H    22D  
+CIRCLE                    0000H  013FH   319D                0014H    20D  
+DRAWA                     013FH  002BH    43D                000CH    12D  
+-CONST IN DATA-                                0023H    35D  
+
+Total                            01D3H   467D  0023H    35D  0036H    54D  
+
+ 621 Lines Read.
+   0 Errors Detected.
+ 66% Utilization of Memory.

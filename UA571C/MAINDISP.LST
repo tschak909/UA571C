@@ -1,0 +1,39 @@
+
+
+
+Summary Information:
+
+PROCEDURE                OFFSET    CODE SIZE     DATA SIZE    STACK SIZE
+MAINDEFAULTS              0CF4H  0038H    56D                0006H     6D  
+MAINDISPLAY               0D2CH  0011H    17D                0006H     6D  
+DRAWDISPLAY               0000H  0364H   868D                0016H    22D  
+SETSYSTEMMODERECTANGLE    0364H  0090H   144D                0006H     6D  
+SETTARGETPROFILERECTANGLE 03F4H  0090H   144D                0006H     6D  
+SETSPECTRALPROFILERECTANGLE
+                          0484H  0074H   116D                0006H     6D  
+SETTARGETSELECTRECTANGLE  04F8H  0090H   144D                0006H     6D  
+SETWEAPONSTATUSRECTANGLE  0588H  0074H   116D                0006H     6D  
+SETIFFSTATUSRECTANGLE     05FCH  00ADH   173D                0006H     6D  
+SETTESTROUTINERECTANGLE   06A9H  0074H   116D                0006H     6D  
+SETMENURECTANGLE          071DH  0104H   260D                0006H     6D  
+SELECTMENU                0821H  003EH    62D                000AH    10D  
+SELECTSYSTEMMODE          085FH  003EH    62D                000AH    10D  
+SELECTWEAPONSTATUS        089DH  003EH    62D                000AH    10D  
+SELECTIFFSTATUS           08DBH  003EH    62D                000AH    10D  
+SELECTTESTROUTINE         0919H  003EH    62D                000AH    10D  
+SELECTTARGETPROFILE       0957H  003EH    62D                000AH    10D  
+SELECTSPECTRALPROFILE     0995H  003EH    62D                000AH    10D  
+SELECTTARGETSELECT        09D3H  003EH    62D                000AH    10D  
+REDRAW                    0A11H  0076H   118D                0008H     8D  
+MENULEFT                  0A87H  001DH    29D                0008H     8D  
+MENURIGHT                 0AA4H  001DH    29D                0008H     8D  
+MENUUP                    0AC1H  00DAH   218D                0008H     8D  
+MENUDOWN                  0B9BH  00DAH   218D                0008H     8D  
+DISPUI                    0C75H  007FH   127D                0008H     8D  
+-CONST IN DATA-                                00DDH   221D  
+
+Total                            0D3DH  3389D  013DH   317D  00D2H   210D  
+
+1310 Lines Read.
+   0 Errors Detected.
+ 72% Utilization of Memory.
