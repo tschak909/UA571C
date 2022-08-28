@@ -19,5 +19,20 @@ As part of @tr1nitr0n and myself rebuilding the GRiD Development Environment fro
 * LICENSE - The GPL v3.0 License for UA 571-C only.
 * InteGRiD.IMG - A 20 megabyte raw Hard disk image (615 cyl, 4 heads, 17 sectors/track) that can either be put on a real disk, or run from an emulator, such as [PCem](https://github.com/sarah-walker-pcem/pcem)
 
-Enjoy,
--Thom
+## InteGRiD Cheat Sheet
+
+* CODE is Alt
+* Confirm is Alt-Return
+* Next field is Return
+* CODE-? to get help
+* CODE-Shift-? to get quick launch keys
+* CODE-CTRL-? to get Window management keys
+
+## UA 571-C Keys
+
+* CODE-F Firing Panel
+* CODE-O Options
+* CONFIRM will also move from Options to firing panel.
+* RETURN to Fire.
+
+Enjoy, -Thom

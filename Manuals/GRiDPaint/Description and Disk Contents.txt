@@ -1,0 +1,91 @@
+GRiDPaint, as the name implies, was a paint program from GRiD. Since it's designed for the monochrome displays that came with the GRiD laptops, it doesn't have any real color options. Instead, you could use various patterns to fill things in. While its abilities are very basic, it can be used to create custom startup screen images or custom graphics for use with GRiDTask.
+
+GRiDPaint also has support for three particular serial mice which use the 2DE-19 port found on the Compasses and TEMPEST GRiDCase Plus. The Microsoft one seems to be a standard serial green-eye version, only with the 19-pin connector (I'm not sure about the other two). I wonder if a regular green-eye might work if it had a converter cable. If you want to use one of the mice with the TEMPEST GRiDCase, you need to activate the GRiDCase19Pin Serial port driver (GCASE19.SER if you're using InteGRiD) from the options menu in GRiDManager. If you don't have the driver for GRiD-OS, it's included on the GRiD-OS 3.2.1 disk. The InteGRiD version of the driver should come standard with most InteGRiD disks.
+
+GRiDPaint came on two floppy disks: One for GRiD-OS (the 5.25" disk) and one for DOS (the 3.5" disk). The DOS version, like mose GRiD software, requires the use of InteGRiD. 
+
+One of the GRiDPaint disks here is for GRiD-OS. As such, you will need to format the floppy disk you want to use with the GRiD-OS disk formatting utility (Initialize Media) before writing to it in ImageDisk.
+
+
+Disk Type: 720kB, 3.5" (GPAINT5.IMD); 360kB, 5.25" (GPAINT52.IMD)
+OS/File Format: MS-DOS/FAT12 (3.5"); GRiD-OS (5.25")
+Disk Image Type: ImageDisk (.imd)
+
+
+
+-------------
+|GPAINT5.IMD| - GRiDPaint 3.1.5 for DOS
+-------------
+
+File Name                       File Type       Version/Date
+--------------------------------------------------------------
+\PAINTFLS
+5152PAR				.prn		4/12/85
+GMASTER				.ala		1/10/86
+GMASTER				.icn		5/29/85
+GMASTER				.run		1/13/86
+SOUND				.dev		3/12/85
+2225PAR				.prn		3/24/86
+GACCESS				.run
+
+\PLOTFLS
+SAMPLE				.grf		7/27/84
+GPLOT				.run		5/28/85
+
+\PROGRAMS
+GPAINT				.run		12/17/84
+SCRPRINT			.run		5/28/85
+TB12X16				.typ		5/15/84
+TB24X32				.typ		11/15/84
+TB9X12				.typ		5/10/84
+TC10X12				.typ		3/26/83
+TC8X8				.typ		5/28/85
+TC9X15				.typ		6/03/84
+TX12X8				.typ		12/02/82
+TG4X8				.typ		6/06/83
+TGB6X7				.typ		5/30/85
+TG5X8				.typ		6/06/83
+TG6X7				.typ		3/25/85
+TG6X8				.typ		5/02/84
+TG8X14				.typ		5/10/84
+TM15X20				.typ		8/17/83
+TPC8X8				.typ		2/28/85
+TXT12X19			.typ		6/03/84
+TXT9X15				.typ		6/03/85
+
+
+
+--------------
+|GPAINT52.IMD| - GRiDPaint 3.1.5 for GRiD-OS
+--------------
+
+File Name                       File Type       Version/Date
+--------------------------------------------------------------
+\GRiDPaint Files
+Flow Chart Templates		Canvas		0.0.0
+Sample Canvas			Canvas		0.0.0
+
+\GRiDPlot Files
+GRiDPlot Demo			Run/Graph	203.1.5
+Sample Graph			Graph		0.0.0
+
+\Programs
+GRIDPaint			Run/Canvas	3.1.5
+ScreenWatch			Run		3.1.6
+TypeBlock12x16			Font		3.1.5
+TypeBlock24x32			Font		3.1.5
+TypeBlock9x12			Font		3.1.5
+TypeColonial10x12		Font		3.1.5
+TypeColonial8x8			Font		3.1.5
+TypeColonial9x15		Font		3.1.5
+TypeExpand12x8			Font		3.1.5
+TypeGRiD4x8			Font		3.1.5
+TypeGRiD5x6			Font		3.1.5
+TypeGRiD5x8			Font		3.1.5
+TypeGRiD6x7			Font		3.1.5
+TypeGRiD6x8			Font		3.1.5
+TypeGRiD8x14			Font		3.1.5
+TypeModern15x20			Font		3.1.5
+TypePCBasic8x8			Font		3.1.5
+TypeTextbook12x19		Font		3.1.5
+TypeTextbook9x15		Font		3.1.5

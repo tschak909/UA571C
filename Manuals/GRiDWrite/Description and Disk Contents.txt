@@ -1,0 +1,26 @@
+This is the individual release of GRiDWrite. It came with versions for DOS/InteGRiD and GRiD-OS.
+
+One of the disks here is for GRiD-OS. As such, you will need to format the floppy disk you want to use with the GRiD-OS disk formatting utility (Initialize Media) before writing to it in ImageDisk. 
+
+
+Disk Type: 720kB, 3.5" (GWRITE31.IMD); 360kB, 5.25" (GWRITE5.IMD)
+Disk OS/File Format: DOS/FAT12 (3.5"); GRiD-OS (5.25")
+Disk Image Format: ImageDisk (.imd)
+
+--------------
+|GWRITE31.IMD| - GRiDWrite 3.1.8 for DOS
+--------------
+
+File Name                       File Type       Version/Date
+--------------------------------------------------------------
+\PROGRAMS
+GWRITE				.run		8/07/87
+
+
+-------------
+|GWRITE5.IMD| - GRiDWrite 3.1.7 for GRiD-OS
+-------------
+
+File Name                       File Type       Version/Date
+--------------------------------------------------------------
+GRiDWrite			Run/Text	3.1.7

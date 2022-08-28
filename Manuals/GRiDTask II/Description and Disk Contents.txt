@@ -1,0 +1,77 @@
+GRiDTask is a programming language that can allow for the creation of simple programs, forms, and scripting for other GRiD programs. Created by Jeff Hawkins for demos and automating functions for other GRiD software, it was initially just used internally at GRiD. Eventually, they realized it had potential as a standalone product and it was released to some success.
+
+The disks here are for GRiD-OS. As such, you will need to format the floppy disks you want to use with the GRiD-OS disk formatting utility (Initialize Media) before writing to them in ImageDisk. In order to format a 720kB disk for GRiD-OS, you'll also need to use a newer version of Initialize Media.
+
+
+Disk Type: 720kB, 3.5" (GTASKII3.IMD); 360kB, 5.25" (GTASKII5.IMD)
+OS/File Format: GRiD-OS
+Disk Image Type: ImageDisk (.imd)
+
+--------------
+|GTASKII3.IMD| - GRiDTask II Development Environment 3.1.7 (GRiD-OS) 3.5" floppy
+--------------
+
+File Name                       File Type       Version/Date
+--------------------------------------------------------------
+\GRiDTaskBuilder starter kit
+Sample				Com		0.0.0
+SampleBuilderInvocation		Text		0.0.0
+
+\Incs
+Library.Inc			Text		3.1.5
+
+\Library starter kit
+Sample				Develop		3.1.5
+Sample				Task		3.1.5
+SAMPLE.PAS			Lst		0.0.0
+SAMPLE.PAS			Obj		0.0.0
+Sample.Pas			Text		3.1.5
+
+\Libs
+CompactSystemCalls		Lib		3.1.5
+LibraryProcs			Obj		3.1.5
+
+\Programs
+DataEntryForms			Library		3.1.7
+Do				Run/Com		3.0.0
+GRiDTask			Run/Task	3.1.7
+GRiDTask II			Run/Task II	3.1.7
+GRiDTaskBuilder			Run		3.1.7
+SAMPLE				Library		3.1.5
+Sound				Device		3.1.6
+
+
+--------------
+|GTASKII5.IMD| - GRiDTask II Development Environment 3.1.7 (GRiD-OS) 5.25" floppy
+--------------
+
+File Name                       File Type       Version/Date
+--------------------------------------------------------------
+\GRiDTaskBuilder starter kit
+Sample				Com		0.0.0
+SampleBuilderInvocation		Lst		0.0.0
+SampleBuilderInvocation		Task II		0.0.0
+SampleBuilderInvocation		Text		0.0.0
+
+\Incs
+Library.Inc			Text		3.1.5
+
+\Library starter kit
+Sample				Develop		3.1.5
+Sample				Task		3.1.5
+SAMPLE.PAS			Lst		0.0.0
+SAMPLE.PAS			Obj		0.0.0
+Sample.Pas			Text		3.1.5
+
+\Libs
+CompactSystemCalls		Lib		3.1.5
+LibraryProcs			Obj		3.1.5
+
+\Programs
+DataEntryForms			Library		3.1.7
+Do				Run/Com		3.0.0
+GRiDTask			Run/Task	3.1.7
+GRiDTask II			Run/Task II	3.1.7
+GRiDTaskBuilder			Run		3.1.7
+SAMPLE				Library		3.1.5
+Sound				Device		3.1.6
